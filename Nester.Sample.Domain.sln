@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.Domain", "Nester.Sample.Domain\Nester.Sample.Domain.csproj", "{29C0F13B-359A-4B1A-92B0-A419A5635B2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.Contract", "Nester.Sample.Contract\Nester.Sample.Contract.csproj", "{21626798-3C4C-4B6F-9778-21EE17257734}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.Implementation", "Nester.Sample.Implementation\Nester.Sample.Implementation.csproj", "{1017C2C1-064A-4148-B4F1-3B026A7F4386}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.Resolver", "Nester.Sample.Resolver\Nester.Sample.Resolver.csproj", "{EEA171DD-4C80-4A6F-8692-A4B68583B880}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.Consumer", "Nester.Sample.Consumer\Nester.Sample.Consumer.csproj", "{237E0692-8E9E-4AE0-8484-CF182380F8DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{9A95D4E7-8222-4E61-B4A8-32A6584A33A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{DCA5E227-EB3B-4E3C-BC45-DD062A3246B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nester.Sample.App", "Nester.Sample.App\Nester.Sample.App.csproj", "{E6B6D858-0A11-4573-A343-9D7840FAAC57}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29C0F13B-359A-4B1A-92B0-A419A5635B2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C0F13B-359A-4B1A-92B0-A419A5635B2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C0F13B-359A-4B1A-92B0-A419A5635B2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C0F13B-359A-4B1A-92B0-A419A5635B2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21626798-3C4C-4B6F-9778-21EE17257734}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21626798-3C4C-4B6F-9778-21EE17257734}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21626798-3C4C-4B6F-9778-21EE17257734}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21626798-3C4C-4B6F-9778-21EE17257734}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1017C2C1-064A-4148-B4F1-3B026A7F4386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1017C2C1-064A-4148-B4F1-3B026A7F4386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1017C2C1-064A-4148-B4F1-3B026A7F4386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1017C2C1-064A-4148-B4F1-3B026A7F4386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEA171DD-4C80-4A6F-8692-A4B68583B880}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEA171DD-4C80-4A6F-8692-A4B68583B880}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEA171DD-4C80-4A6F-8692-A4B68583B880}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEA171DD-4C80-4A6F-8692-A4B68583B880}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237E0692-8E9E-4AE0-8484-CF182380F8DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237E0692-8E9E-4AE0-8484-CF182380F8DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237E0692-8E9E-4AE0-8484-CF182380F8DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237E0692-8E9E-4AE0-8484-CF182380F8DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6B6D858-0A11-4573-A343-9D7840FAAC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6B6D858-0A11-4573-A343-9D7840FAAC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6B6D858-0A11-4573-A343-9D7840FAAC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6B6D858-0A11-4573-A343-9D7840FAAC57}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29C0F13B-359A-4B1A-92B0-A419A5635B2C} = {9A95D4E7-8222-4E61-B4A8-32A6584A33A3}
+		{21626798-3C4C-4B6F-9778-21EE17257734} = {9A95D4E7-8222-4E61-B4A8-32A6584A33A3}
+		{1017C2C1-064A-4148-B4F1-3B026A7F4386} = {9A95D4E7-8222-4E61-B4A8-32A6584A33A3}
+		{EEA171DD-4C80-4A6F-8692-A4B68583B880} = {9A95D4E7-8222-4E61-B4A8-32A6584A33A3}
+		{237E0692-8E9E-4AE0-8484-CF182380F8DD} = {DCA5E227-EB3B-4E3C-BC45-DD062A3246B0}
+		{E6B6D858-0A11-4573-A343-9D7840FAAC57} = {DCA5E227-EB3B-4E3C-BC45-DD062A3246B0}
+	EndGlobalSection
+EndGlobal
